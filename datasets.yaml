@@ -1,0 +1,122 @@
+uscd-collection:
+  twitch:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#twitch
+    urls: 
+      - https://drive.google.com/u/0/uc?id=13lbPDxlEI-ceKCR0H2a9glrgAOukV_Vt&export=download&confirm=no_antivirus
+  amazon-product-reviews:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
+    urls:
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/AMAZON_FASHION_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/All_Beauty_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Appliances_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Arts_Crafts_and_Sewing_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Automotive_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Books_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/CDs_and_Vinyl_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Cell_Phones_and_Accessories_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Clothing_Shoes_and_Jewelry_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Digital_Music_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Electronics_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Gift_Cards_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Grocery_and_Gourmet_Food_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Home_and_Kitchen_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Industrial_and_Scientific_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Kindle_Store_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Luxury_Beauty_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Magazine_Subscriptions_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Movies_and_TV_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Musical_Instruments_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Office_Products_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Patio_Lawn_and_Garden_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Pet_Supplies_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Prime_Pantry_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Software_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Sports_and_Outdoors_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Tools_and_Home_Improvement_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Toys_and_Games_5.json.gz
+      - http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Video_Games_5.json.gz
+  amazon-marketing-bias:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#market_bias
+    urls:
+      - https://github.com/MengtingWan/marketBias/raw/master/data/df_modcloth.csv
+      - https://github.com/MengtingWan/marketBias/raw/master/data/df_electronics.csv
+  food-recipes-reviews:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#foodcom
+    urls:
+      - https://drive.google.com/u/0/uc?id=1vDceBVHcWERStQPSX99rpqAIur-I1mTO&export=download&confirm=no_antivirus
+  google-local-reviews:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#google_local
+    urls:
+      - http://deepyeti.ucsd.edu/jmcauley/datasets/googlelocal/places.clean.json.gz
+      - http://deepyeti.ucsd.edu/jmcauley/datasets/googlelocal/users.clean.json.gz
+      - http://deepyeti.ucsd.edu/jmcauley/datasets/googlelocal/reviews.clean.json.gz
+  steam:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#steam_data
+    urls:
+      - http://deepx.ucsd.edu/public/jmcauley/steam/australian_user_reviews.json.gz
+      - http://deepx.ucsd.edu/public/jmcauley/steam/australian_users_items.json.gz
+      - https://cseweb.ucsd.edu/~wckang/steam_reviews.json.gz
+      - https://cseweb.ucsd.edu/~wckang/steam_games.json.gz
+      - http://deepx.ucsd.edu/public/jmcauley/steam/bundle_data.json.gz
+  - good-reads:
+    source: https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home
+    urls:
+      - https://drive.google.com/uc?id=1TLmSvzHvTLLLMjMoQdkx6pBWon-4bli7&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=19cdwyXwfXx_HDIgxXaHzH0mrx8nMyLvC&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1op8D4e5BaxU2JcPUgxM3ZqrodajryFBb&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1LXpK1UfqtP89H1tYy0pBGHjYk8IhigUK&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1ah0_KpUterVi-AHxJ03iKD6O0NfbK0md&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1R3wJPgyzEX9w6EI8_LmqLbpY4cIC9gw4&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1ICk5x0HXvXDp5Zt54CKPh5qz1HyUIn9m&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1x8IudloezYEg6qDTPxuBkqGuQ3xIBKrt&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1roQnVtWxVE1tbiXyabrotdZyUY7FA82W&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1ACGrQS0sX4-26D358G2i5pja1Y6CsGtz&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1H6xUV48D5sa2uSF_BusW-IBJ7PCQZTS1&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1juZreOlU4FhGnBfP781jAvYdv-UPSf6Q&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1gH7dG4yQzZykTpbHYsrw2nFknjUm0Mol&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1Cf90P5TH84ufrs8qyLrM-iWOXOGjBi9r&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1CCj-cQw_mJLMdvF_YYfQ7ibKA-dC_GA2&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1EFHocJIh5nknbUMcz4LnrMEJkwW3Vk6h&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=10j181giCD94pcYynd6fy2U0RyAlL66YH&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1xuujDT-vOMMkk2Kog0CTT9ADmnD8pa9D&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=17G5_MeSWuhYnD4fGJMvKRSOlBqCCimxJ&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1OmPKA0TmL0nnECDRNF1YpWJw6PBDFl_j&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1NNX7SWcKahezLFNyiW88QFPAqOAYP5qg&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1908GDMdrhDN7sTaI_FelSHxbwcNM1EzR&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1V4MLeoEiPQdocCbUHjR_7L9ZmxTufPFe&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1THnnmE4XSCvMkGOsqapQr2cJI5amKA6X&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1lDkTzM6zpYU-HGkVAQgsw0dBzik-Zde9&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1ONpyuv0vrtd6iUEp0-zzkKqwpm3njEqi&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1FVD3LxJXRc5GrKm97LehLgVGbRfF9TyO&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1NpFsDQKBj_lrTzSASfyKbmkSykzN88wE&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1M5iqCZ8a7rZRtsmY5KQ5rYnP9S0bQJVo&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1CHTAaNwyzvbi1TR08MJrJ03BxA266Yxr&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=15ax-h0Oi_Oyee8gY_aAQN6odoijmiz6Q&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1zmylV7XW2dfQVCLeg1LbllfQtHD2KUon&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1pQnXa7DWLdeUpvUFsKusYzwbA5CAAZx7&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=196W2kDoZXRPjzbTjM6uvTidn6aTpsFnS&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=1NYV4F1WGJg6QbV0rOSXi6Y1gFLwic94a&export=download&confirm=no_antivirus
+  - clothing-fit:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#clothing_fit
+    urls:
+      - http://deepx.ucsd.edu/public/jmcauley/modcloth/modcloth_final_data.json.gz
+      - http://deepx.ucsd.edu/public/jmcauley/renttherunway/renttherunway_final_data.json.gz
+  - bartering:
+    source: http://swapit.github.io/
+    urls:
+      - http://swapit.github.io/data/swapit-data.zip
+  - behance:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#behance
+    urls:
+      - https://drive.google.com/uc?id=0B9Ck8jw-TZUEbnZJWkk5NEJiSlk&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=0B9Ck8jw-TZUEN1pJUkp3dnpJVnc&export=download&confirm=no_antivirus
+      - https://drive.google.com/uc?id=0B9Ck8jw-TZUEQ3VJTWJlOWpKcWs&export=download&confirm=no_antivirus
+  - social-recommendations:
+    source: https://cseweb.ucsd.edu/~jmcauley/datasets.html#social_data
+    urls:
+      - http://deepyeti.ucsd.edu/jmcauley/datasets/librarything/lthing_data.tar.gz
+      - http://deepyeti.ucsd.edu/jmcauley/datasets/epinions/epinions_data.tar.gz
+
+
+
+    
